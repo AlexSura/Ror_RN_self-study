@@ -84,4 +84,4 @@ production:
   database: landing_production
   username: landing
   password: <%= ENV["LANDING_DATABASE_PASSWORD"] %>
-  url: <%= ENV["DATABASE_URL"] %>
+  url: <%= ENV['DATABASE_URL'] %>
