@@ -169,7 +169,7 @@ h2 span
 /* start home */
 #home
 	{
-		background: url('/assets/3333.jpg') no-repeat;
+		background: url('./assets/3333.jpg') no-repeat;
 		background-size: cover;
 		padding-top: 160px;
 		padding-bottom: 100px;

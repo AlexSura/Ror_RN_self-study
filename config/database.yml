@@ -81,7 +81,4 @@ test:
 #
 production:
   <<: *default
-  database: landing_production
-  username: landing
-  password: <%= ENV["LANDING_DATABASE_PASSWORD"] %>
   url: <%= ENV['DATABASE_URL'] %>
