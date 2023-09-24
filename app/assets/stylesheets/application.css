@@ -17,7 +17,8 @@
  require theme/font-awesome.min
  require theme/templatemo-style  
  */
- @import 'theme/animate.min'
- @import 'theme/font-awesome.min'
- @import 'theme/bootstrap.min'
- @import 'theme/templatemo-style'  
+ @import 'theme/animate.min';
+ @import 'theme/font-awesome.min';
+ @import 'theme/bootstrap.min';
+ @import 'theme/templatemo-style';
+ @import "**/*";
