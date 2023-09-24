@@ -12,8 +12,12 @@
  *
  *= require_tree .
  *= require_self
- *= require theme/animate.min
- *= require theme/bootstrap.min
- *= require theme/font-awesome.min
- *= require theme/templatemo-style  
+ require theme/animate.min
+ require theme/bootstrap.min
+ require theme/font-awesome.min
+ require theme/templatemo-style  
  */
+ @import 'theme/animate.min'
+ @import 'theme/font-awesome.min'
+ @import 'theme/bootstrap.min'
+ @import 'theme/templatemo-style'  
